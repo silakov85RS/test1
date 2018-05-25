@@ -1,0 +1,25 @@
+{
+  "name": "project-01",
+  "version": "1.0.0",
+  "description": "project based on bootstrap4",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.18.13",
+    "file-system": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-svg-sprites": "^4.1.2",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

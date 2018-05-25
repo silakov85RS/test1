@@ -1,0 +1,26 @@
+{
+  "about": {
+    "teamlist": [
+      {
+        "title": "Ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing"
+      },
+      {
+        "title": "Dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing"
+      },
+      {
+        "title": "Amet",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing"
+      },
+      {
+        "title": "Lorem",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing"
+      },
+      {
+        "title": "Ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing"
+      }
+    ]
+  }
+}

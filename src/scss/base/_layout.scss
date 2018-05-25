@@ -1,0 +1,73 @@
+html {
+  height: 100vh;
+}
+
+:root {
+  --header-height: 144px;
+  --content-width: 1170px;
+  --side-menu-width: 78px;
+  --side-menu-opened-width: 300px;
+  --side-indents: 40px;
+  --theme-color: #10e08b;
+  --page-min-height: 550px;
+
+  @media only screen and (max-width: 1170px) {
+    --header-height: 80px;
+    --side-menu-width: 50px;
+    --side-indents: 25px;
+  }
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  width: calc(100% - var(--side-menu-width));
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  &.intro {
+    align-items: center;
+    justify-content: center;
+    margin-top: calc(-1 * var(--header-height));
+    height: 100vh;
+
+    @media only screen and (max-width: 768px), screen and (max-height: 550px) {
+      justify-content: flex-start;
+      height: auto;
+    }
+  }
+}
+
+.section-wrap {
+  max-width: calc(2 * var(--side-indents) + var(--content-width));
+  width: 100%;
+  padding: 0 var(--side-indents);
+
+  .intro & {
+    display: flex;
+    flex: 1 0 auto;
+    padding-top: var(--header-height);
+    padding-bottom: 62px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+
+    @media only screen and (max-width: 768px), screen and (max-height: 550px) {
+      justify-content: flex-start;
+    }
+  }
+}
